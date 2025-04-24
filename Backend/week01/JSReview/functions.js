@@ -1,40 +1,65 @@
-const returnEmptyString = function () {};
+const returnEmptyString = function () {
+return ""
+};
+const returnZeroNumber = function () {
+return 0
+};
+const returnEmptyArray = function () {
+return []
+};
+const returnEmptyObject = function () {
+return "Hello World!"
+};
+const addition = function (num1,num2) {
+return num1 +num2
+};
+const subtraction = function (num1,num2) {
+return num1-num2
+};
+const multiplication = function (num1,nuym2) {
+return num1 *num2
+};
+const division = function (a,b) {
+  return a/b
+};
+const returnArray = function () {
+return [1,2,3,4,5]
+};
 
-const returnZeroNumber = function () {};
+const returnFirstIndex = function () {
+  return 0;
+};
 
-const returnEmptyArray = function () {};
+const returnSecondIndex = function () {
+  return 1;
+};
 
-const returnEmptyObject = function () {};
+const returnArrayLength = function (arr) {
+  return arr.length;
+};
 
-const returnString = function () {};
+const arraySum = function () {
+return arr.reduce((sum, current) => sum + current, 0)
+};
+const arraySubtraction = function () {
+return
+};
 
-const addition = function () {};
+const multiplicationArray = function () {
+return
+};
 
-const subtraction = function () {};
+const divisionArray = function () {
+return
+};
 
-const multiplication = function () {};
+const oddArray = function () {
+return
+};
 
-const division = function () {};
-
-const returnArray = function () {};
-
-const returnFirstIndex = function () {};
-
-const returnSecondIndex = function () {};
-
-const returnArrayLength = function () {};
-
-const arraySum = function () {};
-
-const arraySubtraction = function () {};
-
-const multiplicationArray = function () {};
-
-const divisionArray = function () {};
-
-const oddArray = function () {};
-
-const evenArray = function () {};
+const evenArray = function () {
+return 
+};
 
 module.exports = {
 returnEmptyString,

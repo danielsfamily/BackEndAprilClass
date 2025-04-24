@@ -1,12 +1,26 @@
-const identity = function () {
-
+const identity = function (value) {
+return value
 };
 
-const first = function () {
-  
+const first = function (arr, n) {
+  //console.log("arr", arr, "n",n)
+if(n == undefined){
+  return arr[0]
+}else if (n > arr.length){
+  return arr
+}
+
+for( let i = 0; i< n; i++){
+
+  result.push(arr[i])
+
+}
+return result
 };
+
+//console.log(first([1,2,3,4], 2))
   
-const last = function () {
+const last = function (arr, n) {
   
 };
 
